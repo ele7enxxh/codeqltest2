@@ -7,9 +7,9 @@ void *osi_malloc(int size)
     return malloc(size);
 }
 
-void osi_free(int size)
+void osi_free(void *buf)
 {
-    free(size);
+    free(buf);
 }
 
 int main(int argc, char **argv)
