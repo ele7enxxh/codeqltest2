@@ -41,7 +41,7 @@ DEP_RELEASE =
 OUT_RELEASE = bin/Release/test
 
 OBJ_DEBUG = $(OBJDIR_DEBUG)/test.o
-OBJ_RELEASE = $(OBJ_RELEASE)/test.o
+OBJ_RELEASE = $(OBJDIR_RELEASE)/test.o
 
 all: debug release
 
